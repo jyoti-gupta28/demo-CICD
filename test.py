@@ -1,5 +1,6 @@
 import pytest
 from app import app
+from urllib.parse import quote as url_quote
 
 
 @pytest.fixture
